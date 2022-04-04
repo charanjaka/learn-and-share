@@ -3,4 +3,5 @@ Sharing some of the things that I am learning through out my carrer in this repo
 
 ## Learnings
 - [✔️] ♾️ 1 > [Linux-in-Windows](Linux-in-windows.md)
+- [✔️] ♾️ 2 > [Linux Essential commands] (Linux-essential-commands.md)
 
