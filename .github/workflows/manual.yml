@@ -28,3 +28,12 @@ jobs:
     # Runs a single command using the runners shell
     - name: Send greeting
       run: echo "Hello ${{ github.event.inputs.name }}"
+  report:
+    needs: [greet]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Upload the output of greet
+        uses: actions/upload-artifact@v2
+        with:
+          name: Hello ${{ github.event.inputs.name }}
+      
